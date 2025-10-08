@@ -11,15 +11,27 @@ body {
 .game-header {
     text-align: center;
     margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 60px; /* Подстрой под размер */
+    width: auto;
+    border-radius: 8px;
 }
 
 .game-header h1 {
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin: 0;
 }
 
 .score {
     font-size: 1.5em;
+    margin-left: 20px;
 }
 
 #game-board {
@@ -66,4 +78,5 @@ body {
 
 .hidden {
     display: none;
+}
 }
