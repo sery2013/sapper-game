@@ -6,6 +6,9 @@ body {
     flex-direction: column;
     align-items: center;
     color: white;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 40px;
 }
 
 .game-header {
@@ -18,7 +21,7 @@ body {
 }
 
 .logo {
-    height: 60px; /* Подстрой под размер */
+    height: 60px;
     width: auto;
     border-radius: 8px;
 }
@@ -79,4 +82,21 @@ body {
 .hidden {
     display: none;
 }
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
 }
